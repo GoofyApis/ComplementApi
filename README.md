@@ -11,6 +11,6 @@ import requests
 
 url = "https://raw.githubusercontent.com/GoofyApis/ComplementApi/main/complements.json"
 complements = requests.get(url).json()["complements"]
-print(versions)
+print(complements)
 
 ```
