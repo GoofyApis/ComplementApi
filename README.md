@@ -10,7 +10,7 @@ You need to make a request to https://raw.githubusercontent.com/GoofyApis/Comple
 import requests
 
 url = "https://raw.githubusercontent.com/GoofyApis/ComplementApi/main/complements.json"
-versions = requests.get(url).json()["versions"]
+complements = requests.get(url).json()["complements"]
 print(versions)
 
 ```
